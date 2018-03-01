@@ -1,0 +1,35 @@
+form {
+    margin-top: 8em;
+    text-align: center;
+    background-color: #000;
+    color: #eee;
+}
+
+#search {
+    width: 44%;
+    padding-left: .3em;
+}
+
+#social-link {
+    margin-top: 2.5em;
+    bottom: 0;
+    font-size: 40px;
+    width:100%;
+}
+
+#social-link div {
+    position: relative;
+    text-align: center;
+    padding: 0 5%;
+}
+
+#social-link a {
+    margin-left: 16px;
+    padding: 10px;
+    text-decoration: none;
+    color: #aaa;
+}
+
+#social-link a:hover {
+    color: #faa;
+}

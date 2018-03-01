@@ -1,0 +1,22 @@
+[
+    {
+        "name": "twitter",
+        "icon": "ion-social-twitter",
+        "url": "https://twitter.com/szorfein"
+    },
+    {
+        "name": "github",
+        "icon": "ion-social-github",
+        "url": "https://github.com/szorfein"
+    },
+    {
+        "name": "google",
+        "icon": "ion-social-googleplus",
+        "url": "https://plus.google.com/103351806729237673609"
+    },
+    {
+        "name": "reddit",
+        "icon": "ion-social-reddit",
+        "url": "https://reddit.com/user/szorfein/submitted"
+    }
+]
