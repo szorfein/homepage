@@ -1,5 +1,5 @@
 form {
-    margin-top: 8em;
+    margin-top: 6em;
     text-align: center;
 }
 
@@ -50,7 +50,18 @@ form {
 }
 
 #rss-feeds {
+    margin-top: 2em;
     font-size: .7em;
+    height: 100px;
+    padding: 0 4em;
+}
+
+#rss-feeds div {
+    display: inline-block;
+    overflow: auto;
+    width: 30%;
+    height: 100px;
+    margin: 0 1em;
 }
 
 #rss-feeds a {

@@ -43,15 +43,24 @@ $(document).ready(function() {
     /* Rss */
     // src = https://www.raymondcamden.com/2015/12/08/parsing-rss-feeds-in-javascript-options/
     // Yahoo api : https://developer.yahoo.com/yql/?dataTypeRadios=JSON
-    var yql = "https://query.yahooapis.com/v1/public/yql?q=select%20title%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F%2Fthreatpost.com%2Ffeed%2F%22%20limit%203&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
-    $.getJSON(yql, function(res) {
-        data = res.query.results.item
-        html = '<p>'
-        console.log(res);
-        $.each(data, function(entryIndex, entry) {
-            html += '<a href="'+entry.link+'">'+entry.title + '</a><br />';
+    $.getJSON('rss-feeds.json', function(datas) {
+        $.each(datas, function(entryIndex, rssfeed) {
+            var yql = rssfeed.url;
+            var html = ''
+            var rss = ''
+            $.getJSON(yql, function(res) {
+                data = res.query.results.item
+                html += '<div>'
+                html += '<h4>'+rssfeed.name+'</h4>';
+                html += '<p>'
+                $.each(data, function(entryIndex, entry) {
+                    html += '<a href="'+entry.link+'">'+entry.title + '</a><br />';
+                });
+                html += '</p>'
+                html += '</div>'
+                $('#rss-feeds').append(html)
+            }, "jsonp");
         });
-        html += '</p>'
         $('#rss-feeds').html(html)
-    }, "jsonp");
+    });
 });

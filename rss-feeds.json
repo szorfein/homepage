@@ -1,0 +1,14 @@
+[
+    {
+        "name": "threatpost",
+        "url": "https://query.yahooapis.com/v1/public/yql?q=select%20title%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F%2Fthreatpost.com%2Ffeed%2F%22%20limit%203&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+    },
+    {
+        "name": "szorfein",
+        "url": "https://query.yahooapis.com/v1/public/yql?q=select%20title%2Clink%20from%20rss%20where%20url%3D%22https%3A%2F%2Fszorfein.github.io%2Ffeed%22%20limit%203&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+    },
+    {
+        "name": "korben",
+        "url": "https://query.yahooapis.com/v1/public/yql?q=select%20title%2Clink%20from%20rss%20where%20url%3D%22https%3A%2F%2Fkorben.info%2Ffeed%22%20limit%206&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+    }
+]
