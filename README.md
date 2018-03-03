@@ -1,15 +1,17 @@
 # homepage
 
-A simple homepage to web browser. Sense look like a terminal, 
-i would see where i can deep in :)
+A simple homepage for web browser. Sense look like a terminal, 
+i would see where i can deep in :)  
+
+Reseach are made with duckduckgo.
 
 # Configuration
 
-## Social link
+## Links
 
 Edit `social-link.json`, you can find icon name to [ionicons.com](http://ionicons.com).
 
-## Rss feed
+## Rss feeds
 
 To edit `rss-feeds.json`, you have to generate url from [yahoo](https://developer.yahoo.com/yql/?dataTypeRadios=JSON)  
 

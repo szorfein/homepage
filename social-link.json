@@ -18,5 +18,22 @@
         "name": "reddit",
         "icon": "ion-social-reddit",
         "url": "https://reddit.com/user/szorfein/submitted"
+    },
+    {
+        "name": "dotshare",
+        "icon": "",
+        "url": "http://dotshare.it/~szorfein/dots/"
+    },
+    {
+        "name": "imgur",
+        "icon": "",
+        "url": "https://imgur.com/user/Szorfein/submitted"
+    },
+    {
+        "name": "ruby&rails sec",
+        "icon": "",
+        "url": "http://guides.rubyonrails.org/security.html"
     }
+
+
 ]

@@ -8,6 +8,8 @@ $(document).ready(function() {
             html += '<a href="'+entry.url+'">';
             if (entry.icon) {
                 html += '<i class="ion '+entry.icon+'"></i>';
+            } else {
+                html += entry.name;
             }
             html += '</a>';
         });
