@@ -60,7 +60,7 @@ $(document).ready(function() {
                 html += '</div>'
                 $('#rss-feeds').append(html)
             }, "jsonp");
+            $('#rss-feeds').html(html)
         });
-        $('#rss-feeds').html(html)
     });
 });

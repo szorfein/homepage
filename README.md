@@ -7,11 +7,11 @@ I will include some icons too. We'll see.
 
 # Configuration
 
-## Social 
+## Social link
 
 Edit `social-link.json`, you can find icon name to [ionicons.com](http://ionicons.com).
 
-## Rss 
+## Rss feed
 
 To edit `rss-feeds.json`, you have to generate url from [yahoo](https://developer.yahoo.com/yql/?dataTypeRadios=JSON)  
 
