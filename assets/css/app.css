@@ -1,8 +1,6 @@
 form {
     margin-top: 8em;
     text-align: center;
-    background-color: #000;
-    color: #eee;
 }
 
 #search {
@@ -35,4 +33,31 @@ form {
 
 #social-link a:hover {
     color: #eeeeee;
+}
+
+#github {
+    width: 200px;
+    margin: auto;
+}
+
+#github img {
+    width: 40px;
+    height: 40px;
+}
+
+#github p {
+    display: inline-block;
+}
+
+#rss-feeds {
+    font-size: .7em;
+}
+
+#rss-feeds a {
+    color: #75ceae;
+    text-decoration: none;
+}
+
+#rss-feeds a:hover {
+    color: #95efcf;
 }
