@@ -4,7 +4,7 @@ form {
 }
 
 #search {
-    width: 44%;
+    width: 40%;
     padding-left: .3em;
     background-color: #0a0a0a;
     color: #d4cfcf;
@@ -12,7 +12,7 @@ form {
 }
 
 #social-link {
-    margin-top: 2.5em;
+    margin-top: 2.0em;
     bottom: 0;
     font-size: 40px;
     width:100%;
@@ -65,12 +65,12 @@ form {
 }
 
 #rss-feeds div::-webkit-scrollbar {
-    background-color:#7b363c;
+    background-color:#517975;
     border-radius:7px;
 }
 
 #rss-feeds div::-webkit-scrollbar-thumb {
-    background-color:#908053;
+    background-color:#20092399;
     border-radius:7px;
 }
 
@@ -80,10 +80,10 @@ form {
 }
 
 #rss-feeds a {
-    color: #75ceae;
+    color: #74a593;
     text-decoration: none;
 }
 
 #rss-feeds a:hover {
-    color: #95efcf;
+    color: #7fb9a4;
 }
